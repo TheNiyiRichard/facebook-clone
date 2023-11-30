@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adeniyi Richard">
+    <link rel="stylesheet" href="./assets/style/index.css" />
+    <title>Shape factory</title>
+    <script src="./assets/script/index.js" type="module"></script>
+</head>
+<body>
+    <div id="headerContainer">
+        <header>
+            <div class="logo">Facebook</div>
+            <div class="menu">
+                <ul>
+                    <li>Friends</li>
+                    <li>Pages</li>
+                    <li>Groups</li>
+                    <li>My Ad</li>
+                    <li>Settings</li>
+                </ul>
+            </div>
+            <div class="icon">Icon</div>
+        </header>
+    </div>
+
+    <main>
+        <form id="postForm">
+            <textarea placeholder="What's on your mind?"></textarea>
+            <input type="file" accept="image/*" id="imageUpload">
+            <button type="button" onclick="post()">Post</button>
+        </form>
+
+        <section id="postsSection">
+            <!-- Posts will be dynamically added here -->
+        </section>
+
+        <div id="modal" class="modal">
+            <!-- User account info will be displayed here -->
+        </div>
+    </main>
+</body>
+</html>
+
